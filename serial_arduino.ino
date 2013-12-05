@@ -111,7 +111,7 @@ void loop() {
     
     //listen for numbers between 0-9
     if(byteRead>47 && byteRead<58){
-       //num1*10 is needed so that you can recieve 2 acii signs
+       //num1*10 is needed so that you can recieve 2 ascii signs
          num1=(num1*10)+(byteRead-48);
     } 
   
